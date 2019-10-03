@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        tools:context=".activities.SettingsActivity">
+    <androidx.cardview.widget.CardView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="?attr/cardbackground"
+    >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Card Title"
+                    android:textColor="?attr/textcolor"
+                    android:textStyle="bold"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="?attr/textcolor"
+                    android:layout_marginTop="8dp"
+                    android:text="Lorem ipsom dolo amo si kpoju la mentia shi buga mon de quem puon nigga la duvet comet braga doom istoponyo lamilk la cow"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="?attr/cardbackground"
+    >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Some Component"
+                    android:textColor="?attr/textcolor"
+                    android:textStyle="bold"
+            />
+            <RadioButton
+                    android:textColor="?attr/textcolor"
+                    android:text="Radio Buttons"
+                    android:layout_marginTop="5dp"
+                    android:buttonTint="?attr/tintcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <CheckBox
+                    android:textColor="?attr/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Checkbox"
+                    android:buttonTint="?attr/tintcolor"
+            />
+            <Button android:layout_width="wrap_content"
+                    android:background="?attr/buttoncolor"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content" android:text="Button"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            app:cardBackgroundColor="?attr/cardbackground"
+    >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="?attr/textcolor"
+                    android:text="Enable Dark Mode"
+            />
+            <Switch
+                    android:id="@+id/mode_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Night Mode"
+                    android:layout_marginTop="8dp"
+                    android:textColor="?attr/textcolor"
+            />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
